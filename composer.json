@@ -3,8 +3,9 @@
     "description": "A simple helper trait and class that can help follow singleton rule",
     "type": "library",
     "license": "MIT",
-    "script": {
-        "test": "phpunit"
+    "scripts": {
+        "test": "phpunit",
+        "coverage": "phpunit --coverage-text"
     },
     "autoload": {
         "psr-4": {
