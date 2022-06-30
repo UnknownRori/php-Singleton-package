@@ -1,0 +1,32 @@
+{
+    "name": "unknownrori/singleton",
+    "description": "A simple helper trait and class that can help follow singleton rule",
+    "type": "library",
+    "license": "MIT",
+    "script": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "UnknownRori\\Singleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "UnknownRori\\Singleton\\Tests\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "UnknownRori",
+            "email": "68576836+UnknownRori@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
