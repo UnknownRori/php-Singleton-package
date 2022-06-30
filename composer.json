@@ -14,7 +14,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "UnknownRori\\Singleton\\Tests\\": "test/"
+            "UnknownRori\\Singleton\\Tests\\": "tests/"
         }
     },
     "authors": [
